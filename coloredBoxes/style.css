@@ -1,0 +1,51 @@
+/* Up heeeere */
+
+
+*{
+    box-sizing: border-box;
+    /* This actually fixes the weird overlapping */
+}
+.container{
+    height: 400px;
+    width: 100%;
+    border: 5px solid orange;
+
+}
+
+.innerContainer{
+    width: 100%;
+    height: 50%;
+
+    border: 15px solid green;
+    background-color: hotpink;
+}
+
+
+/* .container{
+ 
+    width: 100%;
+    height: 500px;
+   
+    border: 5px solid orange;
+}
+
+.greenContainer{
+    width: 100%;
+    height: 50%;
+    background-color: green;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pinkContainer{
+    width: 99%;
+    height: 95%;
+    background-color: hotpink;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column
+} */
