@@ -22,8 +22,14 @@ body {
 
 .col-inner {
 	width: 60%;
+	height: 100%;
 	display: flex;
-	justify-content: space-evenly;
+	/* justify-content: space-evenly; */
+	/* This is what I used orginally to space the boxes apart */
+
+	justify-content: center;
+	/* In this 2nd version, i'm centering then adding a bottom margin */
+
 	align-items: center;
 
 	flex-direction: column;
@@ -36,11 +42,14 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+
+	margin-bottom: 20px;
+	/* This is used to match the space better with the image */
 }
 
 .orange-card {
 	background-color: orange;
-	height: 30%;
+	height: 35%;
 }
 
 #blue-card {
